@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: rgba(0,0,0, 0.1);
 }
 
 table, tr, td {
@@ -11,7 +11,8 @@ table, tr, td {
 
 #tabela2,
 #tabela3,
-#tabela4 {
+#tabela4,
+#tabela5 {
   margin-top: 20px;
 }
 
@@ -21,4 +22,20 @@ table, tr, td {
 
 #tabela4 th {
   background: pink;
+}
+
+#tabela5 {
+  color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
 }
