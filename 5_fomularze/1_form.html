@@ -19,7 +19,19 @@
 
         <textarea name="wiadomosc" rows="8" cols="80" placeholder="Wpisz wiadomość..."></textarea><br /><br />
 
-        <input type="submit" name="przycisk" required value="Zapisz">
+        <select name="miasto">
+          <optgroup label="wielkopolskie">
+            <option value="p">Poznań</option>
+            <option value="g">Gniezno</option>
+          </optgroup>
+          <optgroup label="zachodniopomorskie">
+            <option value="sz">Szczecin</option>
+            <option value="st">Stargard</option>
+          </optgroup>
+        </select>
+
+        <br /><br /><input type="reset" name="clear" value="Clear">
+        <br /><br /><input type="submit" name="przycisk" required value="Zapisz">
       </form>
     </div>
   </body>
