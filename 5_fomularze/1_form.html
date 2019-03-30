@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form 1</title>
+  </head>
+  <body>
+    <div class="formularz">
+      <form action="index.html" method="get" novalidate>
+        <label>Imię <input type="text" name="imie" required placeholder="Imię" value=""></label><br />
+
+        <label>Hasło <input type="password" name="pass" required placeholder="Hasło" value=""></label><br />
+
+        <label>Mail <input type="email" name="poczta" required placeholder="E-mail" value=""></label><br /><br />
+
+        Płeć:<br />
+        <label>Kobieta <input type="radio" name="plec" value="k" checked></label>
+        <label>Mężczyzna <input type="radio" name="plec" value="m"></label><br /><br />
+
+        <textarea name="wiadomosc" rows="8" cols="80" placeholder="Wpisz wiadomość..."></textarea><br /><br />
+
+        <input type="submit" name="przycisk" required value="Zapisz">
+      </form>
+    </div>
+  </body>
+</html>
