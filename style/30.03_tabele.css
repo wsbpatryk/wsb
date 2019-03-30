@@ -10,6 +10,15 @@ table, tr, td {
 }
 
 #tabela2,
-#tabela3 {
+#tabela3,
+#tabela4 {
   margin-top: 20px;
+}
+
+#tabela4 td {
+  color: #fff;
+}
+
+#tabela4 th {
+  background: pink;
 }
