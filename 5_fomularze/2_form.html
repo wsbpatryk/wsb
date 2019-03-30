@@ -9,8 +9,43 @@
     <form action="#" method="get">
       <input type="text" name="login" autocomplete="off"><br><br>
       <input type="password" name="pass"><br><br>
+      <input type="number" name="wiek" step="0.1"><br><br>
 
-      <input type="submit" name="przycisk" value="wyslij">
+      Daty:<br><br>
+      <input type="date" name="date"><br><br>
+      <input type="time" name="czas" value=""><br><br>
+      <input type="datetime-local" name="date-time-local" value=""><br><br>
+      <input type="week" name="week" value=""><br><br>
+      <input type="month" name="miesiac" value=""><br><br>
+      Telefon:<br><br>
+      <input type="tel"><br><br>
+
+      Kolor:<br><br>
+      <input type="color" name="color" value="">
+
+      Zakres:<br><br>
+      <input type="range" name="zakres"min="0" max="255">
+
+      Lista:<br><br>
+      <label>Dzień tygodnia</label>
+      <input type="text" list="tydzien">
+      <datalist id="tydzien">
+        <option value="poniedzialek">
+        <option value="wtorek">
+        <option value="sroda">
+        <option value="czwartek">
+        <option value="piatek">
+        <option value="sobota">
+        <option value="niedziela">
+      </datalist>
+
+
+      Wyrazenia regularne: <br><br>
+      Pesel: <br><br>
+      <input type="text" name="pesel" pattern="[0-9]{11}"><br>
+      <input type="text" name="" pattern="\d{2}-\d{3}">
+
+      <br><br><input type="submit" name="przycisk" value="wyslij">
     </form>
 
   </body>
