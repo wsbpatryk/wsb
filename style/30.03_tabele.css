@@ -1,0 +1,15 @@
+body {
+  background-color: red;
+}
+
+table, tr, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+#tabela2,
+#tabela3 {
+  margin-top: 20px;
+}
